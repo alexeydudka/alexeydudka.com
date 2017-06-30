@@ -1,0 +1,214 @@
+*, *:after, *:before{padding: 0; margin: 0;box-sizing: border-box;outline: none;outline: 0 none;}
+
+body {font-size: $fontsize; font-weight: normal; line-height: 1.5em; font-family: $fontfamily; color: $fontcolor; background: $mainbackground; }
+p{padding-bottom: 1.5em;}
+.secondary-text{font-size:0.87em;line-height: 1.25em;}
+.title-text{font-size: 1.25em;}
+
+a{
+	text-decoration: none;
+	color:$blue;
+	&:hover{text-decoration: underline;}
+	&:visited{color:$blue;}
+	&.dashed:hover{border-bottom:1px dashed;text-decoration:none;}
+	&.withhovering{
+		position: relative;display: inline-block;
+		background-color: transparent;
+	    text-decoration: none;
+	    color:$fontcolor;
+	    box-shadow: inset 0 -5px 0 #f4cecd;
+	    line-height: 1.25em;
+	    overflow-wrap: break-word;
+	    word-break: break-word;
+	    word-wrap: break-word;
+	    &:hover{background-color:#f4cecd;text-decoration: none;}
+	}
+}
+
+button{cursor: pointer;}
+
+h1 {font-size: 2em; line-height: 1em; padding-bottom: 1em; font-weight: normal;}
+h2 {color: $red; font-size: 1.5em; line-height: 1em; padding-bottom: 1.5em; font-weight: normal;}
+h2 a{font-size: 1em;}
+h3 {font-size: 1.125em; padding-bottom: 1.5em;}
+
+input[type="text"], input[type="email"],input[type="phone"],input[type="password"],textarea,select{font-size: 1em;padding: 7px 16px;border: 1px solid $lightgray;display: inline-block;margin-bottom: 1em;line-height: 1.5em; font-family: $fontfamily; color: $fontcolor;border-radius: 2px;}
+
+.section{
+	float: left;width: 100%;margin: 5px 0 0 0;
+	&.white-bkg{background: #fff;}
+	& > .container{
+		width: 1000px;margin: 0 auto;
+		.page-content{width: 69%;border-radius: 3px; background: #fff;margin-right: 1%;float: left;padding:20px 20px 0 20px;}
+		.page-sidebar{
+			width: 30%;border-radius: 3px; background: #fff;float:left;padding:20px 20px 0 20px;
+			ul{
+				float:left;width: 100%;margin-bottom: 20px;
+				li{float:left;width: 100%;margin-bottom: 7px;}
+			}
+		}
+	}
+	&.footer{
+		padding: 30px 0;
+		.copyright{float: left; margin-right: 20px;}
+	}
+	&.header-menu-section{
+		margin: 10px 0 5px;
+	}
+	&.header-menu-section .header-menu{
+		position: relative;height: 40px;
+		.logo-image{
+			float:left;width:55px;height: 55px;border-radius: 50%;border: 3px solid $mainbackground;position: absolute;top:-7.5px;left: 0;overflow: hidden;
+			img{width: 100%;height: auto;}
+		}
+		.logo-text{float:left;margin: 12px 0 0 75px;}
+		nav{
+			float: right;
+			& > ul{
+				list-style: none;
+				& > li{
+					float: left;position: relative;
+					&:before, &:after {
+						content: "";
+					  	transition: 0.25s all ease;
+  					    backface-visibility: hidden;
+						position: absolute;
+						width: 0;
+						height: 2px;
+						background: #ffd204;
+						top:0;
+						left:0;
+					}
+					&:after{
+						top:auto;bottom: 0;right: 0;left: auto;
+					}
+					&:hover:before, &:hover:after{width: 100%;}
+					& > a{
+						float:left;height: 40px;text-decoration: none;padding: 10px 15px; color: $fontcolor;position: relative;
+						transition: border-color .3s ease-in-out;
+						&:hover {
+							border-color: transparent;
+							background-color: #ffd204;
+							color: #fff;
+							font-weight: bold;
+							transition: border-color .3s ease-in-out, background-color .3s ease-in-out .8s, color .3s ease-in-out .8s, font-weight .5s ease-in-out .8s;
+						}
+
+						&:before,
+						&:after {
+							content: "";
+							transition: 0.25s all ease;
+							backface-visibility: hidden;
+						  	position: absolute;
+						  	width: 2px;
+						  	height: 0;
+						  	background: #ffd204;
+						}
+
+						&:before {
+							left: 0;
+						  	bottom: 0px;
+						 	transition-delay: 0.4s;
+						}
+
+						&:after {
+						  	right: 0;
+						  	top: 0px;
+						  	transition-delay: 0.2s;
+						}
+
+						&:hover:before,
+						&:hover:after {
+							height: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+ul, ol{
+	list-style-position:inside;
+}
+
+table{
+	background-color: transparent;
+	border-spacing: 0;
+    border-collapse: collapse;
+    &.table{
+    	width: 100%;
+	    max-width: 100%;
+	    margin-bottom: 20px;
+    }
+    caption {
+    	padding-top: 8px;
+    	padding-bottom: 8px;
+		color: $gray;
+    	text-align: left;
+	}
+	td{
+		padding: 8px;
+		vertical-align: top;
+    	border-top: 1px solid #ddd;
+    	text-align: left;
+	}
+	th{
+		padding: 8px;
+		vertical-align: bottom;
+		font-weight: bold;
+		border-bottom: 1px solid #ddd;
+		text-align: left;
+	}
+	&.table-bordered td, &.table-bordered th{
+		border: 1px solid #ddd;
+	}
+	&.table-condensed td, &.table-condensed th{
+		padding: 3px 5px;
+	}
+}
+
+.github-buttons-wrap{
+	float: left;width: 100%;padding-bottom: 20px;
+	.download-button{float: right;}
+}
+
+
+
+
+
+
+
+
+
+
+/*Стили для кнопок*/
+a.button, .button{
+	display: inline-block;padding: 12px 16px;font:bold 14px/14px Arial;text-transform: uppercase;text-decoration: none;border: none;position: relative;color:#fff;background: $green;overflow: hidden;border-radius: 2px;
+	&.button-green{background: $green;}
+	&.button-green-transparent{color:$green;background: transparent;}
+	&.button-blue{background: $blue;}
+	&.button-gray{background: $gray;}
+	&.button-lightgray{background: $lightgray;color:$fontcolor;}
+	&.button-yellow{background: $yellow;color: #424242;}
+	&.button-red{background: $red;}
+	&.button-white{background: $white;color: $green;}
+}
+
+
+
+
+/*Стили для хлебных крошек*/
+.site_breadcrumb{
+	float: left;width: 100%;margin-bottom: 50px;
+	ol{
+		float: left;width: 100%;list-style: none;padding: 0 !important;
+		li{
+			color: $gray;display: inline;
+			
+			&:last-child:after{display: none;}
+			a{color: $red;}
+		}
+	}
+}
