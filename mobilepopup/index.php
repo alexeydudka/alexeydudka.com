@@ -62,6 +62,10 @@
 		<td>Load new content to pop-up window</td>
 	</tr>
 	<tr>
+		<td>$.mobilepopup('resize',options)</td>
+		<td>Resize pop-up window (exp {width:'600px',height:'400px'})</td>
+	</tr>
+	<tr>
 		<td>$.mobilepopup('close')</td>
 		<td>Close pop-up window</td>
 	</tr>
