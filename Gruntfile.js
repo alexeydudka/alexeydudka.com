@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'alexeydudkacom/inc/css/assembled.css': 'alexeydudkacom/inc/css/scss/main.scss'
+                    'inc/css/assembled.css': 'inc/css/scss/main.scss'
                 }
             }
         },
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
             }, 
             js: {
                 files: {          
-                    'alexeydudkacom/inc/js/common.min.js': 'alexeydudkacom/inc/js/assets/common.js',
+                    'inc/js/common.min.js': 'inc/js/assets/common.js',
                 }
             }
         },
@@ -32,18 +32,18 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'alexeydudkacom/inc/css/style.min.css': 'alexeydudkacom/inc/css/assembled.css'
+                    'inc/css/style.min.css': 'inc/css/assembled.css'
                 }
             }
         },
         
         clean: {
-            css: ['alexeydudkacom/inc/css/assembled.css']
+            css: ['inc/css/assembled.css']
         },
 
         watch: {
             all: {
-                files: ['alexeydudkacom/inc/css/scss/*.scss', 'alexeydudkacom/inc/js/assets/*.js'],
+                files: ['inc/css/scss/*.scss', 'inc/js/assets/*.js'],
                 tasks: ['update']
             }
         }

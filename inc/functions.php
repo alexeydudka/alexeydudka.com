@@ -1,6 +1,4 @@
 <?php
-	$abspath = "/alexeydudkacom/";
-
 	function get_github_buttons($pluginname){ ?>
 		<div class="github-buttons-wrap">
 			<div class="download-button">

@@ -5,7 +5,7 @@
 	include_once "../inc/header.php"; 
 ?>
 
-<h1>Mobilepopup - jQuery popup plugin</h1>
+<h1>Mobilepopup - jQuery pop-up plugin</h1>
 <?php get_github_buttons("mobilepopup"); ?>
 
 <h3>Main mobilepopup advantages:</h3>
@@ -31,7 +31,7 @@
 		</form>
 	</div>
 	<div class="footer">
-		<a href="" class="submit-popup-form">Send</a>
+		<a href="" class="submit-popup-form button">Send</a>
 	</div>
 </div>
 
@@ -55,11 +55,11 @@
 		<td>Init and open pop-up window</td>
 	</tr>
 	<tr>
-		<td>$.mobilepopup.reload(options)</td>
+		<td>$.mobilepopup('reload',options)</td>
 		<td>Load new content to pop-up window</td>
 	</tr>
 	<tr>
-		<td>$.mobilepopup.close()</td>
+		<td>$.mobilepopup('close')</td>
 		<td>Close pop-up window</td>
 	</tr>
 </table>
@@ -125,7 +125,7 @@
 	</tr>
 	<tr>
 		<td>onformsubmited</td>
-		<td>function, returns data</td>
+		<td>function</td>
 		<td>The function that is executed when the form inside the pop-up window is executed and the result of execution returns, a description of how this form is inside the pop-up window below</td>
 	</tr>
 </table>
