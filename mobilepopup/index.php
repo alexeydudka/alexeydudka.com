@@ -63,7 +63,7 @@
 	</tr>
 	<tr>
 		<td>$.mobilepopup('resize',options)</td>
-		<td>Resize pop-up window (exp {width:'600px',height:'400px'})</td>
+		<td>Resize pop-up window (exp {width:'600px', height:'400px'})</td>
 	</tr>
 	<tr>
 		<td>$.mobilepopup('close')</td>
@@ -144,4 +144,25 @@
 </ol>
 <p>Such a form is sent by ajax and after execution calls onformsubmited, the function returns the data that came as a result of executing the form</p>
 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://alexeydudkacom-mobilepopup.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//alexeydudkacom-mobilepopup.disqus.com/count.js" async></script>
 <?php include_once "../inc/footer.php"; ?>
