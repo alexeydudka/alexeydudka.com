@@ -28,6 +28,7 @@
         <link rel="stylesheet" type="text/css" href="/inc/css/style.min.css">
     </head>
     <body>
+    <?php include_once("analyticstracking.php") ?>
     <header class="section header-menu-section white-bkg">
         <div class="container header-menu">
             <a href="/" class="logo-image withhovering"><img src="/inc/images/myphoto.gif"></a>
