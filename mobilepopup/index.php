@@ -20,6 +20,9 @@
 	targetblock:".pop-up",
 	width:300px,
 	height:300px,
+	onformsubmited: function(data, el){
+		$.mobilepopup('reload',{html:data});
+	}
 });</code></pre>
 
 <div class="pop-up" style="display: none;">
