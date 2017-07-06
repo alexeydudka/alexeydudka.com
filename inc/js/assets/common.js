@@ -18,4 +18,9 @@ $().ready(function(){
 		return false;
 	});
 
+	$.prettytextfield({
+	    textcontainer: ".text",
+	    showtextcontainer: ".textshow"
+	});
+
 });
