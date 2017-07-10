@@ -5,7 +5,7 @@
 	include_once "../inc/header.php"; 
 ?>
 
-<h1>prettytextfield - jQuery pop-up plugin</h1>
+<h1>Prettytextfield - jQuery plugin for sipmle creationg pretty and customizable text field with charcounter and smiles (emoji)</h1><br>
 <?php get_github_buttons("prettytextfield"); ?>
 
 <h3>Main prettytextfield advantages:</h3>
@@ -16,7 +16,6 @@
 	<li>Creation text fild with emojis on any platform</li>
 </ul>
 <br>
-<h1>Prettytextfield - jQuery plugin for sipmle creationg pretty and customizable text field with charcounter and smiles (emoji)</h1><br>
 <h3>Example (set emoji to text in page):</h3><br style="clear: left;">
 <p class="textshow">
     test text 😥🙊🙉🙈<br>

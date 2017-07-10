@@ -20,7 +20,8 @@ $().ready(function(){
 
 	$.prettytextfield({
 	    textcontainer: ".text",
-	    showtextcontainer: ".textshow"
+	    showtextcontainer: ".textshow",
+	    pathtosvgicons:"//prettytextfield.alexeydudka.com/src/icons/"
 	});
 
 });

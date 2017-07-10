@@ -44,6 +44,7 @@
                 </a>
                 <ul>
                     <li><a href="/mobilepopup">Mobilepopup</a></li>
+                    <li><a href="/prettytextfield">Prettytextfield</a></li>
                     <li><a href="https://github.com/alexeydudka">My Github</a></li>
                 </ul>
             </nav>
