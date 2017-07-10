@@ -12,7 +12,7 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script type="text/javascript" src="//mobilepopup.alexeydudka.com/src/mobilepopup.min.js"></script>
-    <script type="text/javascript" src="//prettytextfield.alexeydudka.com/src/prettytextfield.min.js"></script>
+    <script type="text/javascript" src="/inc/plugins/prettytextfield/src/prettytextfield.min.js"></script>
     <script src="/inc/js/common.min.js?v=12"></script>
     </body>
 </html>
