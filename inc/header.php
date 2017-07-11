@@ -25,7 +25,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
         <link rel="stylesheet" href="//mobilepopup.alexeydudka.com/src/mobilepopup.min.css">
-        <link rel="stylesheet" href="/inc/plugins/prettytextfield/prettytextfield.min.css">
+        <link rel="stylesheet" href="/inc/pl/prettytextfield/prettytextfield.min.css">
         <link rel="stylesheet" type="text/css" href="/inc/css/style.min.css">
     </head>
     <body>
