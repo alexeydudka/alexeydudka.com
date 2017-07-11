@@ -21,7 +21,7 @@ $().ready(function(){
 	$.prettytextfield({
 	    textcontainer: ".text",
 	    showtextcontainer: ".textshow",
-	    pathtosvgicons:"/inc/plugins/prettytextfield/src/icons/"
+	    pathtosvgicons:"//prettytextfield.alexeydudka.com/src"
 	});
 
 });
