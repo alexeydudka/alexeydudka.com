@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script type="text/javascript" src="//mobilepopup.alexeydudka.com/src/mobilepopup.min.js"></script>
+    <script type="text/javascript" src="/inc/pl/pl/mobilepopup/mobilepopup.min.js"></script>
     <script type="text/javascript" src="/inc/pl/prettytextfield/prettytextfield.min.js"></script>
     <script src="/inc/js/common.min.js?v=12"></script>
     </body>
