@@ -83,9 +83,9 @@ $("body").on("click",".get-demopopup2",function(){
     </div>
 </div>
 <br><br><br><br>
-<h3>Example of popup with form (<a href="" class="popup-demo">demo</a>):</h3>
+<h3>Example of popup with form (<a href="" class="popup-form">demo</a>):</h3>
 <pre><code class="language-javascript">$.mobilepopup({
-	targetblock:".pop-up",
+	targetblock:"pop-up-form",
 	width:300px,
 	height:300px,
 	onformsubmited: function(data, el){
@@ -93,10 +93,10 @@ $("body").on("click",".get-demopopup2",function(){
 	}
 });</code></pre>
 
-<div class="pop-up" style="display: none;">
+<div class="pop-up-form" style="display: none;">
 	<div class="header">We need your opinion!</div>
 	<div class="content">
-		<form action="ajax.php" class="mobilepopup-form">
+		<form action="/mobilepopup/ajax.php" class="mobilepopup-form">
 			<p>Please post any bugs, issues and suggestions about this page. This will help us to better enhance it.</p>
 			<textarea name="comment" placeholder="Write your comment"></textarea>
 		</form>
@@ -106,7 +106,7 @@ $("body").on("click",".get-demopopup2",function(){
 	</div>
 </div>
 
-<pre><code class="html">&#60;div class="pop-up"&#62;
+<pre><code class="html">&#60;div class="popup-form"&#62;
 	&#60;div class="header"&#62;We need your opinion!&#60;/div&#62;
 	&#60;div class="content"&#62;
 		&#60;form action="ajax.php" class="popup-form"&#62;
